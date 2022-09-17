@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Tahoma';
+    background-color: #EFF4E0;
+}
+header{
+    background-color: #EFF4E0;
+    text-align: center;
+    padding: 25px 0;
+    top: 0;
+
+}
+header.abajo{
+    background: #fff;
+    padding: 15px 20px;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.encabezado-img{
+    background-image: url(imagenes/fondo2.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.encabezado-img p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+footer{
+    padding: 3px;
+}
+section{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px 15px;
+    
+}
+header.abajo.logo
+header.abajo.logo ul li a{
+    color: black;
+}
+.container-all{
+    width: 100%;
+    max-width: 10000px;
+    margin: auto;
+    padding: 60px;
+    background: #E3E6D9;
+    margin-top: 100px;
+    border-top: 6px solid #E8D34E;
+}
+.container-all h1{
+    font-size: 30px;
+    
+}
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+strong{
+    color: orange;		
+    -webkit-text-fill-color: orange;
+    -webkit-text-stroke: 1px
+    -webkit-text-stroke-color;
+}
+.dinos-img{
+    text-align: center;
+   padding: auto;
+}
+.rep-img{
+    text-align: left;
+   padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a h3{
+    margin-left: 58px;
+}
+.linea{
+    background: #550b15;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+

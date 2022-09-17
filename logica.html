@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINO-APRENDE</title>
+    <link rel="icon" type="image/.ico" href="imagenes/ad7c69acff9197a903ea63fd52d0864d.jpg">
+    <link rel="stylesheet" href="logica.css">
+</head>
+<body>
+ <header>
+    <nav>
+        <a href="dino.html">Inicio</a>
+        <a href="dinosaurios1.html">Dinosaurios</a>
+        <a href="era.html">Era Mesozoica</a>
+        <a href="logica.html">Pantanal</a>
+    </nav>
+ </header>
+    <div class="encabezado-img">
+        <h1>ENTRADAS</h1>
+        <p>¡Calcula el valor de tus entradas!</p>
+    </div>
+    <div class="container-all">
+        <section>
+            <center>
+                <br><br>
+                <h1><strong>Cálculo de entradas</strong></h1><br>
+                <span class="linea"></span>
+                <form name="pantanal"><br>
+                <h3>Datos personales</h3><br>
+                Ingrese su correo:  <input name=cor value=""><br>
+                Ingrese su nombre:  <input name=nom value=""><br>
+                Ingrese su edad:    <input name="ed" value="0"><br><br>
+                <span class="linea"></span><br>
+                Valor de entradas: <input name="ve" value="0"><br><br>
+                Numero de entradas:<input name="ne" value="0"><br>
+                <input type="button" name="boton" value="CALCULAR" onclick="calcular()">
+                <input type="reset" value="LIMPIAR"><br>
+                <span class="linea"></span><br>
+                Total: <input name="tot" value="0"><br>
+                Descuento: <input name="des" value="0"><br><br>
+                <span class="linea"></span>
+                <script>
+                    function calcular(){
+                        let ed = document.pantanal.ed.value
+                        document.pantanal.tot.value=eval(document.pantanal.ve.value)*eval(document.pantanal.ne.value)
+                        if (ed<13){
+                            document.pantanal.tot.value=eval(document.pantanal.ve.value)*eval(document.pantanal.ne.value)
+                            document.pantanal.des.value=eval(document.pantanal.tot.value)*0.5
+                        }
+                    }
+                </script>
+                </form><br><br>
+                <h3>Horarios de atención y costos</h3><br>
+                <p>El costo de la entrada para niños y estudiantes menores a 13 años es de $3.00 (descuento del 50%)</p><br>
+                <p>Los horarios de atención son de lunes a domingos de 09:00 a 17:00</p><br>
+                <img src="imagenes/pantanal.jpg" width="550px" height="300px"><br>
+                <span class="linea"></span>
+                </div>
+            </section>
+            <footer>© 2022 DINO-APRENDE</footer>
+
+            </center>
+           
